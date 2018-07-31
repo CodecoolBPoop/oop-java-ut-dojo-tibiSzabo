@@ -53,5 +53,8 @@ public class PhraseReverse {
         System.out.println("Reversed words: " + reverseWords(str));
         System.out.println("Reversed word order: " + reverseWordOrder(str));
         System.out.println("Reverse first 5: " + reverseN(str, 5));
+        StringBuilder test = new StringBuilder(str.substring(0, 0));
+        System.out.println("0 - 0" + test);
+
     }
 }
